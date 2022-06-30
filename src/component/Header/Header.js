@@ -1,8 +1,12 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import logo from '../../images/Logo.svg'
 import './Header.css'
 
 const Header = () => {
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
+
     return (
         <div className='header-container'>
             <div>
@@ -15,6 +19,7 @@ const Header = () => {
             </nav>
             <div className='input-div'>
             <input type="search" placeholder='type here to search...' name="" id="" />
+            <button>{element}</button>
             </div>
         </div>
     );
