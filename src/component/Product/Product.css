@@ -21,3 +21,7 @@
     padding-right: 15px;
     border-radius: 5px;
 }
+.btn-cmn:hover{
+    background-color: green;
+    cursor: pointer;
+}
