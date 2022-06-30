@@ -11,18 +11,17 @@
 }
 .nav a{
     color: white;
-    font-size: larger;
     font-weight: 500;
     text-decoration: none;
     margin-right: 20px;
 }
 .nav a:hover{
-    background-color: antiquewhite;
+    color: green;
     padding-bottom: 10px;
     padding-top: 5px;
 }
 .input-div{
-    background-color: azure;
+    background-color: rgb(247, 201, 143);
 }
 input{
     padding: 4px;
